@@ -1,0 +1,34 @@
+html, body{
+    min-height: 100%
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+#canvas{
+    min-width: 1000px;
+    min-height: 600px;
+    position: relative;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    background-color: #fefcd5;
+    opacity: .80;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+    border-radius: 2px;
+}
+
+.counties {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+}
