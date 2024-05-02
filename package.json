@@ -1,12 +1,9 @@
 {
-  "homepage": "https://georgiayw.github.io/d3-choropleth",
   "name": "choropleth",
   "version": "1.0.0",
   "description": "freecodecamp data visualization projects - visualize data with a choropleth map",
   "main": "script.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "georgiawong",

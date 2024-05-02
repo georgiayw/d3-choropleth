@@ -12,7 +12,6 @@ let Tooltip = d3.select("body")
     .attr("id", "tooltip")
     .attr("class", "tooltip")
     .style("opacity", 0)
-    .attr("class", "tooltip")
     .style("padding", "5px");
        
 let mouseover = function() {
